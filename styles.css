@@ -1,0 +1,53 @@
+* {
+    border: solid 1px red;
+}
+
+body {
+    background-color: #ccf7ff;
+}
+
+.title {
+    text-align: center;
+}
+
+.cardTerm {
+    font-size: x-large;
+    max-width: 400px;
+    max-height: 600px;
+    width: 50vh;
+    border: solid 2px blue;
+    border-radius: 10px;
+    margin: 30px auto;
+    text-align: center;
+    background-color: white;
+}
+
+.cardDefinition {
+    font-size: x-large;
+    max-width: 400px;
+    max-height: 600px;
+    width: 50vh;
+    border: solid 2px blue;
+    border-radius: 10px;
+    margin: 30px auto;
+    text-align: center;
+    background-color: white;
+}
+
+.buttonContainer {
+    text-align: center;
+}
+
+button {
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#flipCard {
+    background-color: rgb(57, 16, 221);
+    color: white;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
