@@ -20,6 +20,7 @@ body {
     margin: 30px auto;
     text-align: center;
     background-color: white;
+    display: block;
 }
 
 .cardDefinition {
@@ -32,6 +33,7 @@ body {
     margin: 30px auto;
     text-align: center;
     background-color: white;
+    display: none;
 }
 
 .buttonContainer {
@@ -43,7 +45,7 @@ button {
     border-radius: 10px;
 }
 
-#flipCard {
+.flipCard {
     background-color: rgb(57, 16, 221);
     color: white;
 }
