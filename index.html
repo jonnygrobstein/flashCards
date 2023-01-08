@@ -7,9 +7,9 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
     <title>My Flash Cards</title>
 </head>
-<body onload="getRandomTerm">
+<body onload="getRandomTerm()">
     <h1 class="title">Welcome to your flashcard webpage!</h1>
-    <h3 id="defaultCards">To use the default flash cards click the button here:</h3>
+    <h2 id="defaultCards">To use the default flash cards click the button here:</h2>
     <button>Default</button>
     <!-- <h3>To use your own flashcards enter the path to your cards below.
         <br>For format instructions click this <a href="#">link</a> to view a simple template.
@@ -17,11 +17,15 @@
     <button>Upload</button> -->
 
     
-    <div class="cardTerm">America's Past time</div>
-    <div class="cardDefinition">Baseball</div>
+    <div class="cardTerm">
+        <h3>Question</h3>
+    </div>
+    <div class="cardDefinition">
+        <h3>Answer</h3>
+    </div>
 
     <div class="buttonContainer">
-        <button class="previousCard">Previous Card</button>
+        <!-- <button class="previousCard">Previous Card</button> -->
         <button class="flipCard">Flip</button>
         <button class="nextCard">Next Card</button>
     </div>

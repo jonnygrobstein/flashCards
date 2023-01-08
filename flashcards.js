@@ -1,48 +1,14 @@
 
 
-const term = document.querySelector('.term')
+const term = document.querySelector('.cardTerm')
 const definition = document.querySelector('.cardDefinition')
 const previousButton = document.querySelector('.previousCard')
 const flipButton = document.querySelector('.flipCard')
 const nextButton = document.querySelector('.nextCard')
 
-previousButton.addEventListener('click', function() {
-    console.log('You clicked the Previous Card Button')
-})
-
 flipButton.addEventListener('click', function() {
     definition.style.display = 'block';
 })
-
-nextButton.addEventListener('click', function() {
-    console.log('You clicked the Next Card Button')
-})
-
-
-
-questions = []
-answers = []
-
-
-
-// Hide both #term and #answer from view
-
-
-
-
-
-// show card with term in the card and not answer - click default to start the first term
-
-addEventListener
-
-// click the showAnswer button and transition card to answerCard
-
-addEventListener
-
-
-// click the #nextCard button and transition card to next card
-
-
 
 let cards = {
     'Which is the only American Football team to go a whole season undefeated, including the Super Bowl?': '1972 Miami Dolphins',
@@ -57,10 +23,17 @@ let cards = {
 
 data = Object.entries(cards)
 
-console.log(data[0][0])
-
 function getRandomTerm() {
     randomTerm = data[Math.floor(Math.random() * data.length)]
-    term.innerHTML = ``
+    term.innerHTML = `<h3>${randomTerm[0]}</h3>`;
+    definition.innerHTML = `<h3>${randomTerm[1]}</h3>`;
 }
 
+flipButton.addEventListener('click', function() {
+    definition.style.display = 'block';
+})
+
+nextButton.addEventListener('click', function() {
+    getRandomTerm()
+    definition.style.display = 'none';
+})
