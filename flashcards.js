@@ -18,7 +18,12 @@ let cards = {
     'Which two racing drivers hold the record for the most Formula One World Drivers Championship wins, with seven titles?': 'Michael Schumacher and Lewis Hamilton',
     'Which NFL team appeared in four consecutive Super Bowls between 1991 and 1994 and lost them all?': 'Buffalo Bills',
     'Which boxer was the first to defeat Muhammad Ali in professional boxing?': 'Joe Frazier, 1971',
-
+    'Which baseball player holds the record for the most home runs in a single season?': 'Barry Bonds',
+    'Which country has produced the most Formula One World Championship winning drivers?': 'United Kingdom',
+    'Who is the NFLs all-time leading rusher?': 'Emmitt Smith',
+    'Which country won the first ever soccer World Cup in 1930?': 'Uruguay',
+    'Which two NFL teams have won the most Super Bowls with 6 wins each?': 'Pittsburgh Steelers and New England Patriots',
+    'Which golf tournament did Tiger Woods win by 12 strokes in 1997 to record his first major championship win?': 'The Masters',
 }
 
 data = Object.entries(cards)

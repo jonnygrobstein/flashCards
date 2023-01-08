@@ -1,13 +1,22 @@
-* {
+/* * {
     border: solid 1px red;
-}
+} */
 
 body {
+    background-image: url('sportsbackground.jpeg');
     background-color: #ccf7ff;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+img {
+    opacity: 0.5;
 }
 
 .title {
     text-align: center;
+    color: white;
 }
 
 .cardTerm {
@@ -15,7 +24,7 @@ body {
     max-width: 400px;
     max-height: 600px;
     width: 50vh;
-    border: solid 2px blue;
+    border: solid 4px blue;
     border-radius: 10px;
     margin: 30px auto;
     text-align: center;
@@ -28,7 +37,7 @@ body {
     max-width: 400px;
     max-height: 600px;
     width: 50vh;
-    border: solid 2px blue;
+    border: solid 4px blue;
     border-radius: 10px;
     margin: 30px auto;
     text-align: center;
@@ -52,4 +61,11 @@ button {
 
 button:hover {
     transform: scale(1.1);
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
