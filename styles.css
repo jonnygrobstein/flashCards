@@ -5,7 +5,7 @@
 body {
     background-image: url('sportsbackground.jpeg');
     background-color: #ccf7ff;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
 
 }
@@ -21,8 +21,6 @@ img {
 
 .cardTerm {
     font-size: x-large;
-    max-width: 400px;
-    max-height: 600px;
     width: 50vh;
     border: solid 4px blue;
     border-radius: 10px;
@@ -30,12 +28,11 @@ img {
     text-align: center;
     background-color: white;
     display: block;
+    margin-top: 150px;
 }
 
 .cardDefinition {
     font-size: x-large;
-    max-width: 400px;
-    max-height: 600px;
     width: 50vh;
     border: solid 4px blue;
     border-radius: 10px;
@@ -43,6 +40,7 @@ img {
     text-align: center;
     background-color: white;
     display: none;
+    margin-top: 100px;
 }
 
 .buttonContainer {
