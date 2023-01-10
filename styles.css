@@ -19,7 +19,7 @@ img {
     color: white;
 }
 
-.cardTerm {
+.card {
     font-size: x-large;
     width: 50%;
     border: solid 4px blue;
@@ -27,18 +27,14 @@ img {
     margin: 30px auto;
     text-align: center;
     background-color: white;
+}
+
+.cardTerm {
     display: block;
     margin-top: 150px;
 }
 
 .cardDefinition {
-    font-size: x-large;
-    width: 50%;
-    border: solid 4px blue;
-    border-radius: 10px;
-    margin: 30px auto;
-    text-align: center;
-    background-color: white;
     display: none;
     margin-top: 100px;
 }
