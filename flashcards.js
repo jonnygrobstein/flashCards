@@ -6,10 +6,7 @@ const previousButton = document.querySelector('.previousCard')
 const flipButton = document.querySelector('.flipCard')
 const nextButton = document.querySelector('.nextCard')
 
-flipButton.addEventListener('click', function() {
-    definition.style.display = 'block';
-})
-
+// key value pairs are text.  They are converted to an array with the data variable below in order to access them 
 let cards = {
     'Which is the only American Football team to go a whole season undefeated, including the Super Bowl?': '1972 Miami Dolphins',
     'Which is the only team to play in every soccer World Cup tournament?': 'Brazil',
@@ -26,10 +23,10 @@ let cards = {
     'Which golf tournament did Tiger Woods win by 12 strokes in 1997 to record his first major championship win?': 'The Masters',
 }
 
-data = Object.entries(cards)
+let data = Object.entries(cards)
 
 function getRandomTerm() {
-    randomTerm = data[Math.floor(Math.random() * data.length)]
+    let randomTerm = data[Math.floor(Math.random() * data.length)]
     term.innerHTML = `<h3>${randomTerm[0]}</h3>`;
     definition.innerHTML = `<h3>${randomTerm[1]}</h3>`;
 }
